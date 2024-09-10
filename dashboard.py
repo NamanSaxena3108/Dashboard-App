@@ -26,7 +26,7 @@ def main():
     </style>
     ''',unsafe_allow_html=True)
     st.image("hero_image1.jpg",use_column_width=True)
-    st.title("Poekmon Dashboard")
+    st.title("Pokemon Dashboard")
     with st.spinner("Loading Pokemon..."):
         df=load_data()
         #st.snow()
